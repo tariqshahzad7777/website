@@ -1,0 +1,60 @@
+@font-face{
+    font-family: "fjalla";
+    src: url(fonts/fjalla.ttf);
+
+}
+.class1{
+    height: 160px;
+    width: 1349px;
+    background-color: #FFCC00;
+}
+.class2{
+    background-color:#110f0f;
+    height: 100px;
+    width: 1349px;
+}
+nav ul{
+    font-weight: bold;
+}
+nav{
+    background-color: #FFCC00;
+}
+.img1{
+    width: 50px; 
+    height: 45px;
+}
+.navbar-text{
+    color: #110f0f !important; 
+    padding-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight:bold; 
+     font-size: large;
+}
+h5{
+    color: #ff0000; 
+    display: inline-block;
+    font-weight: bold; 
+    font-family:sans-serif;
+}
+@media only screen and (max-width:1250px){
+    .navbar-text{
+        margin-top: 200px;
+        background-color:#110f0f;
+        height: 100px;
+        width: 500px;
+        display: none;
+    }
+    .class1{
+        height: 160px;
+        width: auto;
+        background-color: #FFCC00;
+        text-align: center;
+    }
+    .class2{
+        background-color:#110f0f;
+        height: 100px;
+        width: auto;
+        text-align: center;
+    }
+
+}
